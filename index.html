@@ -48,6 +48,46 @@
 </head>
 
 <body data-colorpage="">
+    <style>
+         /* Стилі для попапу */
+         .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        .popup h2 {
+            margin-top: 0;
+        }
+        .popup button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .popup button:hover {
+            background-color: #45a049;
+        }
+    </style>
     <header class="header">
         <div class="container">
             <div class="header-wrap">
@@ -84,7 +124,7 @@
         <div class="container">
             <div class="top_wrap">
                 <div class="left-sec">
-                    <h1>ЛІТНІЙ КОСТЮМ</h1>
+                    <h1>Сукня літня</h1>
                     <div class="wrapper">
                         <div class="top_text-block">
                             <div class="item-block">
@@ -119,7 +159,7 @@
                         <div class="top-price des">
                             <div class="old-price">
                                 <span class="text">Звичайна ціна:</span>
-                                <span class="value">1810грн</span>
+                                <span class="value">1220грн</span>
                             </div>
                             <div class="discount">
                                 <span class="text">ЗНИЖКА</span>
@@ -127,7 +167,7 @@
                             </div>
                             <div class="current-price">
                                 <span class="text">Ціна сьогодні:</span>
-                                <span class="value">1230грн</span>
+                                <span class="value">830грн</span>
                             </div>
                         </div>
                     </div>
@@ -152,19 +192,19 @@
                     <div class="top_count">Залишилось<span>12</span>одиниць по акції!</div>
                 </div>
                 <div class="right-sec">
-                    <div class="title-mob">ЛІТНІЙ КОСТЮМ</div>
+                    <div class="title-mob"></div>
                     <div class="wrap-img">
-                        <img src="img/0.jpg" alt="">
+                        <img src="img/img6465-1716023422-349.jpg" alt="">
                         <div class="label">НОВИНКА</div>
                         <div class="table-size">
                             <div class="text">РОЗМІРИ</div>
-                            <div class="num">50-64</div>
+                            <div class="num">42-48</div>
                         </div>
                     </div>
                     <div class="top-price mobile">
                         <div class="old-price">
                             <span class="text">Звичайна ціна:</span>
-                            <span class="value">1810грн</span>
+                            <span class="value">1220грн</span>
                         </div>
                         <div class="discount">
                             <span class="text">ЗНИЖКА</span>
@@ -172,22 +212,25 @@
                         </div>
                         <div class="current-price">
                             <span class="text">Ціна сьогодні:</span>
-                            <span class="value">1230грн</span>
+                            <span class="value">830грн</span>
                         </div>
                     </div>
                     <div class="tabs-img-wrap swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img data-color="haki" class="url-load" data-way="img/1.jpg" src="index.html" alt="">
+                                <img data-color="haki" class="url-load" data-way="img/img6477-1716023178-551.jpg" src="index.html" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img data-color="bordo" class="url-load" data-way="img/2.jpg" src="index.html" alt="">
+                                <img data-color="bordo" class="url-load" data-way="img/img6492-1716023598-289.jpg" src="index.html" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img data-color="blue" class="url-load" data-way="img/3.jpg" src="index.html" alt="">
+                                <img data-color="blue" class="url-load" data-way="img/img6507-1716023751-133.jpg" src="index.html" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img data-color="blue" class="url-load" data-way="img/4.jpg" src="index.html" alt="">
+                                <img data-color="blue" class="url-load" data-way="img/1.jpg" src="index.html" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img data-color="blue" class="url-load" data-way="img/2.jpg" src="index.html" alt="">
                             </div>
                         </div>
                         <div class="arrows">
@@ -228,8 +271,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="sub">Літній костюм від магазину ShopUkraine ідеально підійде для повсякденного носіння.</div>
-                        <div class="text">Даний костюм прекрасно підійде для повсякденного носіння! У ньому Вам буде комфортно і приємно, тому що всі матеріали преміум якості.</div>
+                        <div class="sub">Сукня літня від магазину ShopUkraine ідеально підійде для повсякденного носіння.</div>
+                        <div class="text">Дана сукня прекрасно підійде для повсякденного носіння! У ньому Вам буде комфортно і приємно, тому що всі матеріали преміум якості.</div>
                     </div>
                 </div>
             </div>
@@ -244,11 +287,11 @@
                         <div class="item-color-img">
 
                             <div class="wrap-img">
-                                <img class="url-load" data-way="img/1-1.jpg" src="index.html" alt="">
+                                <img class="url-load" data-way="img/img6465-1716023422-349.jpg" src="index.html" alt="">
                                 <div class="label">-32%</div>
                                 <div class="table-size">
                                     <div class="text">РОЗМІРИ</div>
-                                    <div class="num">50-64</div>
+                                    <div class="num">42-48</div>
                                 </div>
                             </div>
                             <div class="color-slider color-slider-0 swiper-container">
@@ -257,15 +300,15 @@
                                         <div class="label">-32%</div>
                                         <div class="table-size">
                                             <div class="text">РОЗМІРИ</div>
-                                            <div class="num">50-64</div>
+                                            <div class="num">42-48</div>
                                         </div>
-                                        <img class="url-load" data-way="img/1-1.jpg" src="index.html" alt="">
+                                        <img class="url-load" data-way="img/red.jpg" src="index.html" alt="">
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="label">-32%</div>
                                         <div class="table-size">
                                             <div class="text">РОЗМІРИ</div>
-                                            <div class="num">50-64</div>
+                                            <div class="num">42-48</div>
                                         </div>
                                         <img class="url-load" data-way="img/1-2.jpg" src="index.html" alt="">
                                     </div>
@@ -273,7 +316,7 @@
                                         <div class="label">-32%</div>
                                         <div class="table-size">
                                             <div class="text">РОЗМІРИ</div>
-                                            <div class="num">50-64</div>
+                                            <div class="num">42-48</div>
                                         </div>
                                         <img class="url-load" data-way="img/1-3.jpg" src="index.html" alt="">
                                     </div>
@@ -298,13 +341,13 @@
                         <div class="item-color-text">
                             <div class="wrapper-item">
                                 <div class="wrapper-one">
-                                    <div class="color">Колір: Чорний</div>
+                                    <div class="color">Колір: Червоний</div>
                                     <div class="akcia">
                                     </div>
                                 </div>
                                 <div class="wrapper-two">
-                                    <div class="old-price">1810грн</div>
-                                    <div class="new-price">1230грн</div>
+                                    <div class="old-price">1220грн</div>
+                                    <div class="new-price">830грн</div>
                                 </div>
                             </div>
                             <a href="#form-feedback" class="btn-color" data-num="0" data-color="haki">Замовити зі знижкою</a>
@@ -313,11 +356,11 @@
                     <div class="item-color">
                         <div class="item-color-img">
                             <div class="wrap-img">
-                                <img class="url-load" data-way="img/2-1.jpg" src="index.html" alt="">
+                                <img class="url-load" data-way="img/img6477-1716023178-551.jpg" src="index.html" alt="">
                                 <div class="label">-32%</div>
                                 <div class="table-size">
                                     <div class="text">РОЗМІРИ</div>
-                                    <div class="num">50-64</div>
+                                    <div class="num">42-48</div>
                                 </div>
                             </div>
                             <div class="color-slider color-slider-0 swiper-container">
@@ -326,15 +369,15 @@
                                         <div class="label">-32%</div>
                                         <div class="table-size">
                                             <div class="text">РОЗМІРИ</div>
-                                            <div class="num">50-64</div>
+                                            <div class="num">42-48</div>
                                         </div>
-                                        <img class="url-load" data-way="img/2-1.jpg" src="index.html" alt="">
+                                        <img class="url-load" data-way="img/zelenka.jpg" src="index.html" alt="">
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="label">-32%</div>
                                         <div class="table-size">
                                             <div class="text">РОЗМІРИ</div>
-                                            <div class="num">50-64</div>
+                                            <div class="num">42-48</div>
                                         </div>
                                         <img class="url-load" data-way="img/2-2.jpg" src="index.html" alt="">
                                     </div>
@@ -342,7 +385,7 @@
                                         <div class="label">-32%</div>
                                         <div class="table-size">
                                             <div class="text">РОЗМІРИ</div>
-                                            <div class="num">50-64</div>
+                                            <div class="num">42-48</div>
                                         </div>
                                         <img class="url-load" data-way="img/2-3.jpg" src="index.html" alt="">
                                     </div>
@@ -365,13 +408,13 @@
                         <div class="item-color-text">
                             <div class="wrapper-item">
                                 <div class="wrapper-one">
-                                    <div class="color">Колір: Малина</div>
+                                    <div class="color">Колір: Зелений</div>
                                     <div class="akcia">
                                     </div>
                                 </div>
                                 <div class="wrapper-two">
-                                    <div class="old-price">1810грн</div>
-                                    <div class="new-price">1230грн</div>
+                                    <div class="old-price">1220грн</div>
+                                    <div class="new-price">830грн</div>
                                 </div>
                             </div>
                             <a href="#form-feedback" class="btn-color" data-num="0" data-color="haki">Замовити зі знижкою</a>
@@ -383,11 +426,11 @@
             <div class="item-color">
                 <div class="item-color-img">
                     <div class="wrap-img">
-                        <img class="url-load" data-way="img/3-1.jpg" src="index.html" alt="">
+                        <img class="url-load" data-way="img/img6492-1716023598-289.jpg" src="index.html" alt="">
                         <div class="label">-32%</div>
                         <div class="table-size">
                             <div class="text">РОЗМІРИ</div>
-                            <div class="num">50-64</div>
+                            <div class="num">42-48</div>
                         </div>
                     </div>
                     <div class="color-slider color-slider-0 swiper-container">
@@ -396,15 +439,15 @@
                                 <div class="label">-32%</div>
                                 <div class="table-size">
                                     <div class="text">РОЗМІРИ</div>
-                                    <div class="num">50-64</div>
+                                    <div class="num">42-48</div>
                                 </div>
-                                <img class="url-load" data-way="img/3-1.jpg" src="index.html" alt="">
+                                <img class="url-load" data-way="img/blue.jpg" src="index.html" alt="">
                             </div>
                             <div class="swiper-slide">
                                 <div class="label">-32%</div>
                                 <div class="table-size">
                                     <div class="text">РОЗМІРИ</div>
-                                    <div class="num">50-64</div>
+                                    <div class="num">42-48</div>
                                 </div>
                                 <img class="url-load" data-way="img/3-2.jpg" src="index.html" alt="">
                             </div>
@@ -412,7 +455,7 @@
                                 <div class="label">-32%</div>
                                 <div class="table-size">
                                     <div class="text">РОЗМІРИ</div>
-                                    <div class="num">50-64</div>
+                                    <div class="num">42-48</div>
                                 </div>
                                 <img class="url-load" data-way="img/3-3.jpg" src="index.html" alt="">
                             </div>
@@ -436,14 +479,14 @@
                 <div class="item-color-text">
                     <div class="wrapper-item">
                         <div class="wrapper-one">
-                            <div class="color">Колір: Зелений</div>
+                            <div class="color">Колір: Блакитний</div>
 
                             <div class="akcia">
                             </div>
                         </div>
                         <div class="wrapper-two">
-                            <div class="old-price">1810грн</div>
-                            <div class="new-price">1230грн</div>
+                            <div class="old-price">1220грн</div>
+                            <div class="new-price">830грн</div>
                         </div>
                     </div>
                     <a href="#form-feedback" class="btn-color" data-num="0" data-color="haki">Замовити зі знижкою</a>
@@ -453,11 +496,11 @@
             <div class="item-color">
                 <div class="item-color-img">
                     <div class="wrap-img">
-                        <img class="url-load" data-way="img/4-1.jpg" src="index.html" alt="">
+                        <img class="url-load" data-way="img/img6507-1716023751-133.jpg" src="index.html" alt="">
                         <div class="label">-32%</div>
                         <div class="table-size">
                             <div class="text">РОЗМІРИ</div>
-                            <div class="num">50-64</div>
+                            <div class="num">42-48</div>
                         </div>
                     </div>
                     <div class="color-slider color-slider-0 swiper-container">
@@ -466,15 +509,15 @@
                                 <div class="label">-32%</div>
                                 <div class="table-size">
                                     <div class="text">РОЗМІРИ</div>
-                                    <div class="num">50-64</div>
+                                    <div class="num">42-48</div>
                                 </div>
-                                <img class="url-load" data-way="img/4-1.jpg" src="index.html" alt="">
+                                <img class="url-load" data-way="img/moloko.jpg" src="index.html" alt="">
                             </div>
                             <div class="swiper-slide">
                                 <div class="label">-32%</div>
                                 <div class="table-size">
                                     <div class="text">РОЗМІРИ</div>
-                                    <div class="num">50-64</div>
+                                    <div class="num">42-48</div>
                                 </div>
                                 <img class="url-load" data-way="img/4-2.jpg" src="index.html" alt="">
                             </div>
@@ -482,7 +525,7 @@
                                 <div class="label">-32%</div>
                                 <div class="table-size">
                                     <div class="text">РОЗМІРИ</div>
-                                    <div class="num">50-64</div>
+                                    <div class="num">42-48</div>
                                 </div>
                                 <img class="url-load" data-way="img/4-3.jpg" src="index.html" alt="">
                             </div>
@@ -506,20 +549,88 @@
                 <div class="item-color-text">
                     <div class="wrapper-item">
                         <div class="wrapper-one">
-                            <div class="color">Колір: Електрик</div>
+                            <div class="color">Колір: Білий</div>
 
                             <div class="akcia">
                             </div>
                         </div>
                         <div class="wrapper-two">
-                            <div class="old-price">1810грн</div>
-                            <div class="new-price">1230грн</div>
+                            <div class="old-price">1220грн</div>
+                            <div class="new-price">830грн</div>
                         </div>
                     </div>
                     <a href="#form-feedback" class="btn-color" data-num="0" data-color="haki">Замовити зі знижкою</a>
                 </div>
             </div>
+            <div class="item-color">
+                <div class="item-color-img">
+                    <div class="wrap-img">
+                        <img class="url-load" data-way="img/2.jpg" src="index.html" alt="">
+                        <div class="label">-32%</div>
+                        <div class="table-size">
+                            <div class="text">РОЗМІРИ</div>
+                            <div class="num">42-48</div>
+                        </div>
+                    </div>
+                    <div class="color-slider color-slider-0 swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="label">-32%</div>
+                                <div class="table-size">
+                                    <div class="text">РОЗМІРИ</div>
+                                    <div class="num">42-48</div>
+                                </div>
+                                <img class="url-load" data-way="img/black.jpg" src="index.html" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="label">-32%</div>
+                                <div class="table-size">
+                                    <div class="text">РОЗМІРИ</div>
+                                    <div class="num">42-48</div>
+                                </div>
+                                <img class="url-load" data-way="img/4-2.jpg" src="index.html" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="label">-32%</div>
+                                <div class="table-size">
+                                    <div class="text">РОЗМІРИ</div>
+                                    <div class="num">42-48</div>
+                                </div>
+                                <img class="url-load" data-way="img/4-3.jpg" src="index.html" alt="">
+                            </div>
 
+                        </div>
+                        <div class="arrows">
+                            <div class="svg next">
+                                <svg width="24" height="14" viewbox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22.4695 12.5588L12.1141 3L1.7588 12.5588" stroke="#252525" stroke-opacity="0.5" stroke-width="3"></path>
+                </svg>
+                            </div>
+                            <div class="svg prev">
+                                <svg width="24" height="13" viewbox="0 0 24 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.31763 1.38385L11.673 10.9426L22.0283 1.38385" stroke="#252525" stroke-opacity="0.5" stroke-width="3"></path>
+                </svg>
+                            </div>
+                        </div>
+                        <div class="paginations swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="item-color-text">
+                    <div class="wrapper-item">
+                        <div class="wrapper-one">
+                            <div class="color">Колір: Чорний</div>
+
+                            <div class="akcia">
+                            </div>
+                        </div>
+                        <div class="wrapper-two">
+                            <div class="old-price">1220грн</div>
+                            <div class="new-price">830грн</div>
+                        </div>
+                    </div>
+                    <a href="#form-feedback" class="btn-color" data-num="0" data-color="haki">Замовити зі знижкою</a>
+                </div>
+            </div>
         </div>
     </div>
     </div>
@@ -848,7 +959,7 @@
     <div class="sec-form">
         <div class="container">
             <div class="form_wrap">
-                <div class="title main">Замовте ЛІТНІЙ КОСТЮМ<br>Shop Ukraine <br><span>З ЗНИЖКОЮ 32%</span></div>
+                <div class="title main">Замовте Сукня літня<br>Shop Ukraine <br><span>З ЗНИЖКОЮ 32%</span></div>
                 <div class="content">
                     <div class="content-slider">
                         <div class="slider swiper-container">
@@ -881,18 +992,18 @@
                         </div>
                         <div class="wrap-img">
                             <img class="url-load" data-way="img/0.jpg" src="index.html" alt="">
-                            <div class="label">ЛІТНІЙ КОСТЮМ</div>
+                            <div class="label">Сукня літня</div>
                             <div class="table-size">
                             </div>
                             <div class="price">
                                 <div class="price-wrap">
                                     <div class="price-old">
                                         <div class="text">Звичайна ціна: </div>
-                                        <div class="val">1810грн</div>
+                                        <div class="val">1220грн</div>
                                     </div>
                                     <div class="price-new">
                                         <div class="text">Ціна сьогодні:</div>
-                                        <div class="val">1230грн</div>
+                                        <div class="val">830грн</div>
                                     </div>
                                     <div class="disc">
                                         <div class="text">ЗНИЖКА</div>
@@ -929,38 +1040,80 @@
                                 <div class="text">секунд</div>
                             </div>
                         </div>
-                        <form action="https://aaa.cola-workeu.com/ok" method="post">
-
-                            <label class="size">
-                <img class="url-load" data-way="img/img-28.svg" src="index.html" alt="">
-                <select class="field" id="select" name="color" required oninvalid="this.setCustomValidity('Заповніть поле')" oninput="setCustomValidity('')">
-                  <option selected="" selected="" disabled="">Виберіть колір</option>
-                  <option value="Чорний" data-val="ber" value="ber">Чорний</option>
-                  <option value="Зелений" data-val="ber" value="ber">Зелений</option>
-                  <option value="Малина" data-val="ber" value="ber">Малина</option>
-                  <option value="Електрик" data-val="ber" value="ber">Електрик</option>
-                </select>
-              </label>
-                            <label class="size">
-                <img class="url-load" data-way="img/img-28.svg" src="index.html" alt="">
-                <select class="field" id="select" name="size" required="">
-                  <option selected="" selected="" disabled="">Виберіть розмір</option>
-                  <option value="50-52">50-52</option>
-                  <option value="54-56">54-56</option>
-                  <option value="58-60">58-60</option>
-                  <option value="62-64">62-64</option>
-                </select>
-              </label>
-                            <label class="name">
-                <img class="url-load" data-way="img/img-21.png" src="index.html" alt="">
-                <input class="inp" type="text" name="name" placeholder="Введіть Прізвище та Ім'я*" required="">
-              </label>
-                            <label class="phone" style="margin-bottom: 25px;">
-                <img class="url-load" data-way="img/img-30.svg" src="index.html" alt="">
-                <input class="inp inp-phone" type="tel" name="phone" placeholder="Введіть Ваш телефон*" required="">
-              </label>
-                            <input class="btn-color" type="submit" value="Оформити замовлення зі знижкою">
-                        </form>
+                        <div class="form-container">
+                            <form id="orderForm">
+                                <label class="size">
+                                    <img class="url-load" data-way="img/img-28.svg" src="img/img-28.svg" alt="">
+                                    <select class="field" id="select" name="color" required oninvalid="this.setCustomValidity('Заповніть поле')" oninput="setCustomValidity('')">
+                                        <option selected disabled>Виберіть колір</option>
+                                        <option value="Червоний">Червоний</option>
+                                        <option value="Зелений">Зелений</option>
+                                        <option value="Блакитний">Блакитний</option>
+                                        <option value="Білий">Білий</option>
+                                        <option value="Чорний">Чорний</option>
+                                    </select>
+                                </label>
+                                <label class="size">
+                                    <img class="url-load" data-way="img/img-28.svg" src="img/img-28.svg" alt="">
+                                    <select class="field" id="select" name="size" required>
+                                        <option selected disabled>Виберіть розмір</option>
+                                        <option value="42">42</option>
+                                        <option value="44">44</option>
+                                        <option value="46">46</option>
+                                        <option value="48">48</option>
+                                    </select>
+                                </label>
+                                <label class="name">
+                                    <img class="url-load" data-way="img/img-21.png" src="img/img-21.png" alt="">
+                                    <input class="inp" type="text" name="name" placeholder="Введіть Прізвище та Ім'я*" required>
+                                </label>
+                                <label class="phone" style="margin-bottom: 25px;">
+                                    <img class="url-load" data-way="img/img-30.svg" src="img/img-30.svg" alt="">
+                                    <input class="inp inp-phone" type="tel" name="phone" placeholder="Введіть Ваш телефон*" required>
+                                </label>
+                                <input class="btn-color" type="submit" value="Оформити замовлення зі знижкою">
+                            </form>
+                        </div>
+                    
+                        <div class="popup-overlay" id="popupOverlay"></div>
+                        <div class="popup" id="popup">
+                            <h2>Дякуємо за замовлення!</h2>
+                            <p>Ваше замовлення було успішно відправлено. Ми зв'яжемося з вами найближчим часом.</p>
+                            <button onclick="closePopup()">Закрити</button>
+                        </div>
+                    
+                        <script>
+                            document.getElementById('orderForm').addEventListener('submit', function(event) {
+                                event.preventDefault(); // Запобігаємо звичайному відправленню форми
+                    
+                                var formData = new FormData(this);
+                                var object = {};
+                                formData.forEach((value, key) => object[key] = value);
+                                var json = JSON.stringify(object);
+                    
+                                fetch('https://aaa.cola-workeu.com/ttt', {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json'
+                                    },
+                                    body: json
+                                })
+                                .then(response => response.text())
+                                .then(data => {
+                                    // Відобразити попап
+                                    document.getElementById('popupOverlay').style.display = 'block';
+                                    document.getElementById('popup').style.display = 'block';
+                                })
+                                .catch(error => {
+                                    console.error('Помилка:', error);
+                                });
+                            });
+                    
+                            function closePopup() {
+                                document.getElementById('popupOverlay').style.display = 'none';
+                                document.getElementById('popup').style.display = 'none';
+                            }
+                        </script>
                         <div class="top_count">Залишилось<span>12</span>одиниць з акції!</div>
                     </div>
                 </div>
@@ -1080,18 +1233,49 @@
             </g>
           </svg>
                     <div class="title">Замовте дзвінок</div>
-                    <form action="https://aaa.cola-workeu.com/ok" method="post">
-                        <label class="name">
-              <img class="url-load" data-way="img/img-21.png" src="index.html" alt="">
-              <input class="inp" type="text" name="name" placeholder="Введіть Прізвище та Ім'я*" required="">
-            </label>
-                        <label class="phone" style="margin-bottom: 25px;">
-              <img class="url-load" data-way="img/img-30.svg" src="index.html" alt="">
-              <input class="inp inp-phone" type="tel" name="phone" placeholder="Введіть Ваш телефон*" required="">
-            </label>
-                        <input class="btn-color" type="submit" value="Чекаю дзвінка">
-                        <input type="hidden" name="form_wait_call" value="Y">
-                    </form>
+                    <div class="form-container">
+                        <form id="orderForm" action="https://aaa.cola-workeu.com/ttt" method="post">
+                            <label class="size">
+                                <img class="url-load" data-way="img/img-28.svg" src="img/img-28.svg" alt="">
+                                <select class="field" id="select" name="color" required oninvalid="this.setCustomValidity('Заповніть поле')" oninput="setCustomValidity('')">
+                                    <option selected disabled>Виберіть колір</option>
+                                    <option value="Червоний">Червоний</option>
+                                    <option value="Зелений">Зелений</option>
+                                    <option value="Блакитний">Блакитний</option>
+                                    <option value="Білий">Білий</option>
+                                    <option value="Чорний">Чорний</option>
+                                </select>
+                            </label>
+                            <label class="size">
+                                <img class="url-load" data-way="img/img-28.svg" src="img/img-28.svg" alt="">
+                                <select class="field" id="select" name="size" required>
+                                    <option selected disabled>Виберіть розмір</option>
+                                    <option value="42">42</option>
+                                    <option value="44">44</option>
+                                    <option value="46">46</option>
+                                    <option value="48">48</option>
+                                </select>
+                            </label>
+                            <label class="name">
+                                <img class="url-load" data-way="img/img-21.png" src="img/img-21.png" alt="">
+                                <input class="inp" type="text" name="name" placeholder="Введіть Прізвище та Ім'я*" required>
+                            </label>
+                            <label class="phone" style="margin-bottom: 25px;">
+                                <img class="url-load" data-way="img/img-30.svg" src="img/img-30.svg" alt="">
+                                <input class="inp inp-phone" type="tel" name="phone" placeholder="Введіть Ваш телефон*" required>
+                            </label>
+                            <input class="btn-color" type="submit" value="Оформити замовлення зі знижкою">
+                        </form>
+                    </div>
+                
+                    <div class="popup-overlay" id="popupOverlay"></div>
+                    <div class="popup" id="popup">
+                        <h2>Дякуємо за замовлення!</h2>
+                        <p>Ваше замовлення було успішно відправлено. Ми зв'яжемося з вами найближчим часом.</p>
+                        <button onclick="closePopup()">Закрити</button>
+                    </div>
+                
+                    
                     <div class="text">Передзвонимо вам з 9:00 до 20:00 (Пн-Нд)</div>
                 </div>
             </div>
